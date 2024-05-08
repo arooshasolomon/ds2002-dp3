@@ -67,7 +67,7 @@ def get_message():
     organized_value = dict(sorted(message_storage.items()))
     print(organized_value)
     
-    # fetch out the VALUES 
+    # obtains all the values needed 
     for each in organized_value:
         final_message = organized_value[each]
         print(final_message, end=' ')
